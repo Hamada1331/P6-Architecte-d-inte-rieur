@@ -46,7 +46,3 @@ server.on('listening', () => {
 
 server.listen(port);
 
-fetch("http://localhost:5678/api-docs/");
-then(repo => repo.json())
-then(repo2 => console.log(repo2) )
-
